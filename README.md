@@ -7,7 +7,7 @@ The backend (API) was based on Laravel with JWT authorization. React [Dashboard]
 Currently only Polish is available.
 
 ```ad-info
-title: Project in progress
+⚠️ Project in progress
 ```
 
 
@@ -20,15 +20,12 @@ title: Project in progress
 
 ## Setup
 
-```ad-warning
-title: System
-Tested on Windows 10. Setup on other systems may be different.
-```
 
-```ad-info
-title: Database
-You will need [XAMPP](https://www.apachefriends.org/pl/index.html) or something to host a MariaDB.
-```
+> ⚠️ Tested on Windows 10. Setup on other systems may be different.
+
+
+> ⚠️ You will need [XAMPP](https://www.apachefriends.org/pl/index.html) or something to host a MariaDB.
+
 
 ### To run the dashboard:
 
@@ -50,10 +47,7 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-```ad-info
-title: Default credentials
-If you will use XAMPP to host database, you don't need to change anything.
-```
+> ⚠️ If you will use XAMPP to host database, you don't need to change anything.
 
 Then just run this block:
 
@@ -69,12 +63,12 @@ php artisan serve --port=8000
 App should run on localhost:5173
 
 ```ad-warning
-title: Data seeding
+⚠️ Data seeding
 Only 2023.01 - 2023.03 are filled with data.
 ```
 
 ```ad-warning
-title: Dev version
+⚠️ Dev version
 The application will run on dev mode.
 ```
 
